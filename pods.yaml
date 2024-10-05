@@ -1,4 +1,4 @@
-kind: pod
+kind: pods
 apiVersion: v1
 metadata:
   name: pods
