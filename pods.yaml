@@ -1,0 +1,12 @@
+kind: pod
+appVersion: v1
+metadata:
+  name: pods
+  environment: dev
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+  - name: alma
+    image: "almalinux:9"
+    command: [ "sleep","2000" ]
